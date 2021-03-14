@@ -4,6 +4,7 @@
     b.	Se a média for >= 3.0 e < 6.0 exibir “EXAME”;
     c.	Se a média for < 3.0                 exibir “RETIDO”.*/
 
+    import javax.swing.JOptionPane;
 public class Aluno {
     double nota1, nota2
     public static void main (String arg [ ]) 
@@ -33,7 +34,8 @@ public class Aluno {
 /*EXERCÍCIO 2: Receba a hora de início e de final de um jogo (HH,MM), calcular o tempo do jogo em horas e minutos,
   sabendo que o tempo máximo é menor que 24 horas e pode começar num dia e terminar em outro.*/
 
-public class Tempo_Jogo {
+  import javax.swing.JOptionPane;
+  public class Tempo_Jogo {
     int HoraI, MinI, HoraF, MinF;
     public static void main (String arg [ ]) 
    {
